@@ -125,7 +125,7 @@ end
 **User Identities**
 
 Users can have multiple identities. When a customer submits a ticket for the first time, their `identity` is based on the channel they submitted the ticket through.
-Supported identites are `email`, `twitter handle`, `facebook account`, `openid`, `google account`.
+Supported identites are `email`, `twitter`, `facebook`, `openid`, `google`.
 
 ```ruby
 @zendesk.users(123).identities.create({:email => "yo@dawg.com"})
