@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '>= 1.3.6'
 
   s.add_dependency "hashie",             "~> 1.0.0"
-  s.add_dependency "faraday",            "~> 0.7.3"
-  s.add_dependency "faraday_middleware", "0.7.0"
+  s.add_dependency "faraday",            "~> 0.8.0"
+  s.add_dependency "faraday_middleware", "~> 0.8.7"
   s.add_dependency "multi_xml",          "~> 0.4.4"
   s.add_dependency "multi_json",         "~> 1.3.4"
   s.add_dependency "patron"
